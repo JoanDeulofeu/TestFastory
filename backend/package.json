@@ -1,0 +1,24 @@
+{
+	"name": "test_fastory",
+	"version": "1.0.0",
+	"description": "Test technique pour Fastory",
+	"main": "index.js",
+	"scripts": {
+		"start": "dotenv -e .env.local node src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoanDeulofeu/TestFastory.git"
+	},
+	"author": "Gehin Joan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JoanDeulofeu/TestFastory/issues"
+	},
+	"homepage": "https://github.com/JoanDeulofeu/TestFastory#readme",
+	"dependencies": {
+		"@hapi/hapi": "^20.2.1",
+		"node-fetch": "^3.0.0"
+	}
+}
